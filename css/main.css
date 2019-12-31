@@ -1167,7 +1167,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #66fffe;
+  background: #28c3fc;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2821,4 +2821,28 @@ img:hover {
   .pagination {
     margin: 8px 0 0;
   }
+}
+body {
+  background: url("https://source.unsplash.com/random/1600x900");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.8;
+}
+.header-inner {
+  opacity: 0.8;
+}
+.footer-inneurl {
+  font-size: 17px;
+  color: #f00;
+  font-family: 'EB Garamond', "Noto Serif SC", sans-serif;
+  font-weight: bold;
 }
